@@ -10,6 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+const title = "Titel";
+const text = "Text";
+let likeCounter = 23281;
+const author = "Autor";
+const isReported = true;
 
 // --^-- write your code here --^--
 
@@ -18,5 +23,10 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+console.log(title, text, likeCounter, author, isReported);
+
+likeCounter++;
+
+console.log(likeCounter);
 
 // --^-- write your code here --^--
